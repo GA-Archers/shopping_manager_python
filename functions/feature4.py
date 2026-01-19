@@ -1,5 +1,9 @@
+from decimal import Decimal
+from typing import Optional
+
 # SEARCH AND FILTER
 def search_by_price_range(
+        
     min_price: Decimal,
     max_price: Decimal
 ) -> List[str]:

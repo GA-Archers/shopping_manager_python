@@ -1,3 +1,6 @@
+from decimal import Decimal
+from typing import Optional
+
 # SHOPPING CART OPERATIONS
 def add_to_cart(user_id: str, product_id: str, quantity: int) -> bool:
     """

@@ -1,3 +1,6 @@
+from decimal import Decimal
+from typing import Optional
+
 # ORDER PROCESSING
 def checkout(user_id: str) -> Optional[str]:
     """
